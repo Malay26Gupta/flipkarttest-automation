@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="Utilities.ExtentListenerClass"></listener>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="TestCasesFlipkart.SearchPageTest"/>
+      <class name="TestCasesFlipkart.CartTest"/>
+      <class name="TestCasesFlipkart.SellOnlineTest"/>
+      <class name="TestCasesFlipkart.homePageTest"/>
+      <class name="TestCasesFlipkart.ProductPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
